@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "categories": [
+    {
+      "id": "opening",
+      "title": "搭讪开场",
+      "description": "在合适的场合，礼貌、自然地开启第一句对话",
+      "order": 1
+    },
+    {
+      "id": "flow",
+      "title": "聊天延续",
+      "description": "让对话自然展开，避免冷场和一问一答",
+      "order": 2
+    },
+    {
+      "id": "interest",
+      "title": "表达好感",
+      "description": "真诚、有分寸地表达欣赏与兴趣",
+      "order": 3
+    },
+    {
+      "id": "invite",
+      "title": "约会邀约",
+      "description": "自然地提出见面邀请，并尊重对方的回应",
+      "order": 4
+    }
+  ],
+  "lessons": [
+    {
+      "id": "opening-001",
+      "categoryId": "opening",
+      "title": "如何自然地开启对话",
+      "description": "学习在合适的场合，用简单、真诚的开场白开始交流",
+      "difficulty": "beginner",
+      "durationMinutes": 8,
+      "order": 1,
+      "sample": true,
+      "objective": "学会在合适的场合，用与当下情境相关的一句话自然开口，让对方感到轻松、没有压力，并且随时可以得体地结束对话。",
+      "example": {
+        "scene": "周末下午在书店，对方正在翻看旅行类书籍，看起来比较放松。",
+        "lines": [
+          {
+            "role": "self",
+            "label": "你",
+            "text": "不好意思打扰一下，你手上这本是讲日本的吗？我最近也在计划去那边。"
+          },
+          {
+            "role": "other",
+            "label": "她",
+            "text": "对，讲京都的，写得挺细的。"
+          },
+          {
+            "role": "self",
+            "label": "你",
+            "text": "京都我一直想去。你是在做攻略，还是已经去过了？"
+          },
+          {
+            "role": "other",
+            "label": "她",
+            "text": "去过一次，这次想再去看看红叶。"
+          },
+          {
+            "role": "self",
+            "label": "你",
+            "text": "红叶季应该很美。我叫阿杰，平时也喜欢到处走走。有没有哪个地方你特别推荐？"
+          },
+          {
+            "role": "other",
+            "label": "她",
+            "text": "可以去岚山，就是人有点多，最好早点去。"
+          }
+        ],
+        "whyItWorks": "开场从眼前的共同情境（她手上的书）出发，自然不突兀；先礼貌地说“打扰一下”，给对方留出回应或拒绝的空间；之后分享自己的情况，再提出开放式问题，让对话有来有往，而不是单方面提问。",
+        "whenToAvoid": "如果对方戴着耳机、明显在赶时间、专注工作，或者用很短的回答、转身等方式表示不想继续，就不适合开口或继续聊。这时礼貌地说一句“不打扰了”然后离开，是尊重，也是风度。"
+      },
+      "tips": [
+        "从眼前的环境或共同经历找话题，比背好的“套路开场白”更自然。",
+        "开口前先观察：对方是否放松、有空，而不是在忙或明显想独处。",
+        "语气轻松、音量适中，保持舒适的距离，不要挡住对方的去路。",
+        "说一两句后留出空间，让对方决定要不要继续聊。",
+        "对方回应冷淡时，微笑结束对话即可，不需要追问或解释。"
+      ],
+      "mistakes": [
+        {
+          "mistake": "一开口就评价外貌，比如“你好漂亮”。",
+          "better": "从情境或共同话题入手；聊得自然之后，再真诚地欣赏对方的观点或品味。"
+        },
+        {
+          "mistake": "连续追问私人信息，比如住在哪里、有没有男朋友。",
+          "better": "先聊轻松的公共话题，私人信息让对方自己决定要不要分享。"
+        },
+        {
+          "mistake": "对方已经表现出不想聊，仍然坚持搭话或跟着对方。",
+          "better": "尊重对方的意愿，礼貌道别。被拒绝不代表你不好，只是时机或缘分不合适。"
+        },
+        {
+          "mistake": "背诵网上的“万能开场白”。",
+          "better": "用自己的话表达真实的想法，真诚比技巧更重要。"
+        }
+      ]
+    },
+    {
+      "id": "opening-002",
+      "categoryId": "opening",
+      "title": "如何判断合适的开口时机",
+      "description": "观察场合与对方状态，选择不打扰对方的时机",
+      "difficulty": "beginner",
+      "durationMinutes": 6,
+      "order": 2,
+      "sample": true
+    },
+    {
+      "id": "opening-003",
+      "categoryId": "opening",
+      "title": "开场被冷淡回应时怎么办",
+      "description": "保持礼貌与风度，得体地结束或继续对话",
+      "difficulty": "intermediate",
+      "durationMinutes": 8,
+      "order": 3,
+      "sample": true
+    },
+    {
+      "id": "flow-001",
+      "categoryId": "flow",
+      "title": "如何避免聊天变成一问一答",
+      "description": "用分享与回应代替连续提问，让对话有来有往",
+      "difficulty": "beginner",
+      "durationMinutes": 10,
+      "order": 1,
+      "sample": true,
+      "objective": "理解“一问一答”为什么会让聊天变得像面试，学会用“回应 + 分享 + 延展”的方式，让对话自然地有来有往。",
+      "example": {
+        "scene": "朋友聚会上，你和刚认识的她聊到了周末的安排。",
+        "lines": [
+          {
+            "role": "other",
+            "label": "她",
+            "text": "我周末一般会去爬山。"
+          },
+          {
+            "role": "self",
+            "label": "你",
+            "text": "挺好的！我上个月第一次去爬山，下山的时候腿一直在抖，哈哈。你一般去哪里爬？"
+          },
+          {
+            "role": "other",
+            "label": "她",
+            "text": "哈哈，新手都这样。我常去附近一条比较轻松的步道。"
+          },
+          {
+            "role": "self",
+            "label": "你",
+            "text": "听起来很适合我这种体力。你喜欢爬山，是因为风景，还是喜欢运动的感觉？"
+          },
+          {
+            "role": "other",
+            "label": "她",
+            "text": "主要是能让脑子放空，平时工作太忙了。"
+          },
+          {
+            "role": "self",
+            "label": "你",
+            "text": "懂，我跑步也是这种感觉，跑完整个人都轻松了。你最近工作在忙什么？"
+          }
+        ],
+        "whyItWorks": "每次回应都先接住对方的话，再分享一点自己的经历，最后用开放式问题把话题延展下去。对方能感受到你在认真听，也更愿意多说一些。",
+        "whenToAvoid": "如果对方的回答越来越短、频繁看手机，或者主动转向别人，说明她可能暂时不想深聊。这时不必硬找话题，可以自然地结束，或者加入大家的谈话。分享自己时也要适度，不要变成只讲自己。"
+      },
+      "tips": [
+        "多用开放式问题（为什么、怎么样、哪些），少用只能回答“是”或“不是”的问题。",
+        "先回应再提问：对她的话表达兴趣或共鸣，再接下一个问题。",
+        "适当分享自己的经历和感受，让对方也有机会了解你。",
+        "抓住对方话里的细节延展，比突然换一个新话题更自然。",
+        "允许短暂的停顿，不必害怕安静，也不用急着填满每一秒。"
+      ],
+      "mistakes": [
+        {
+          "mistake": "像查户口一样连续提问：做什么工作？住哪里？家里几口人？",
+          "better": "每问一个问题，就围绕答案多聊几句，再分享自己的相关经历。"
+        },
+        {
+          "mistake": "只顾讲自己的事，没有给对方说话的机会。",
+          "better": "分享之后把话题交还给对方，比如“你呢？”"
+        },
+        {
+          "mistake": "对方回答后只说“哦”“这样啊”。",
+          "better": "表达真实的反应或追问细节，例如“这个挺有意思的，后来呢？”"
+        }
+      ]
+    },
+    {
+      "id": "flow-002",
+      "categoryId": "flow",
+      "title": "如何接住对方的话题",
+      "description": "从对方的回答中找到延展点，自然地把话题聊下去",
+      "difficulty": "beginner",
+      "durationMinutes": 8,
+      "order": 2,
+      "sample": true
+    },
+    {
+      "id": "flow-003",
+      "categoryId": "flow",
+      "title": "如何从容应对冷场",
+      "description": "准备几个轻松的话题方向，冷场时自然切换",
+      "difficulty": "intermediate",
+      "durationMinutes": 8,
+      "order": 3,
+      "sample": true
+    },
+    {
+      "id": "interest-001",
+      "categoryId": "interest",
+      "title": "如何自然地表达兴趣",
+      "description": "用真诚的赞美和关注，让对方感受到你的欣赏",
+      "difficulty": "beginner",
+      "durationMinutes": 8,
+      "order": 1,
+      "sample": true
+    },
+    {
+      "id": "interest-002",
+      "categoryId": "interest",
+      "title": "如何把握表达好感的分寸",
+      "description": "留意对方的反应，循序渐进，不给对方压力",
+      "difficulty": "intermediate",
+      "durationMinutes": 10,
+      "order": 2,
+      "sample": true
+    },
+    {
+      "id": "interest-003",
+      "categoryId": "interest",
+      "title": "线上聊天中如何表达好感",
+      "description": "在文字聊天里自然流露兴趣，既不过度也不冷淡",
+      "difficulty": "intermediate",
+      "durationMinutes": 8,
+      "order": 3,
+      "sample": true
+    },
+    {
+      "id": "invite-001",
+      "categoryId": "invite",
+      "title": "如何邀请对方约会",
+      "description": "用具体、轻松的方式提出邀请，让对方容易回应",
+      "difficulty": "beginner",
+      "durationMinutes": 8,
+      "order": 1,
+      "sample": true
+    },
+    {
+      "id": "invite-002",
+      "categoryId": "invite",
+      "title": "第一次约会去哪里比较合适",
+      "description": "选择轻松、安全、便于交谈的见面地点",
+      "difficulty": "beginner",
+      "durationMinutes": 6,
+      "order": 2,
+      "sample": true
+    },
+    {
+      "id": "invite-003",
+      "categoryId": "invite",
+      "title": "被拒绝后如何得体回应",
+      "description": "尊重对方的决定，保持风度，从经历中成长",
+      "difficulty": "intermediate",
+      "durationMinutes": 8,
+      "order": 3,
+      "sample": true
+    }
+  ]
+}

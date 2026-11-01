@@ -23,7 +23,7 @@ footer{max-width:760px;margin:0 auto;padding:4px 20px 40px;color:var(--muted);fo
 <h3>使用社区功能（需登录）</h3>
 <ul><li><b>Google 登录信息</b>：通过 Firebase Authentication 登录。Google 会向 Firebase 提供你的账号标识、邮箱地址以及基本资料（如名字、头像）。我们只使用一个随机的用户 ID 来区分账号，<b>不会在 App 内公开你的 Google 名字、邮箱或头像</b>。</li>
 <li><b>昵称</b>：你自己设置的社区昵称，会显示在你的分享和评论上。</li>
-<li><b>你发布的内容</b>：分享（标题、正文）、你附上的照片（穿搭分享必填，实战分享可选）、评论，以及发布时间。</li>
+<li><b>你发布的内容</b>：分享（标题、正文）、你附上的照片（穿搭分享必填，实战分享可选）、评论、点赞，以及发布时间。点赞数和评论数会公开显示，但不会显示是谁点的赞。</li>
 <li><b>举报记录</b>：你举报的内容和原因。</li>
 <li><b>管理记录</b>：如果账号因违反社区守则被限制发言，我们会保存一条记录。</li></ul>
 <p>上传照片前，App 会在手机上压缩并重新保存照片，这会去除照片中的 EXIF 信息（例如拍摄地点）。</p>
@@ -44,7 +44,7 @@ footer{max-width:760px;margin:0 auto;padding:4px 20px 40px;color:var(--muted);fo
 <h2>5. 保存期限与删除</h2>
 <ul><li>你的社区数据会一直保存，直到你删除相关内容或删除账号。</li>
 <li>你可以随时删除自己的分享（包括其照片和评论）。</li>
-<li>在 App 中「我的 → 账号 → 删除账号」可永久删除：昵称、你发布的所有分享、照片和评论、你的举报记录，以及登录账号。详见 <a href="delete-account.html">账号与数据删除说明</a>。</li>
+<li>在 App 中「我的 → 账号 → 删除账号」可永久删除：昵称、你发布的所有分享、照片和评论、你的点赞、你的举报记录，以及登录账号。详见 <a href="delete-account.html">账号与数据删除说明</a>。</li>
 <li>为防止滥用，限制发言的记录可能在账号删除后继续保留（仅包含随机用户 ID 和原因）。</li>
 <li>服务商的备份可能在删除后的一段时间内才完全清除。</li></ul>
 <h2>6. 年龄限制</h2>
@@ -66,7 +66,7 @@ footer{max-width:760px;margin:0 auto;padding:4px 20px 40px;color:var(--muted);fo
 <h3>Community features (sign-in required)</h3>
 <ul><li><b>Google sign-in</b> via Firebase Authentication. Google provides Firebase with your account identifier, email address and basic profile (name, profile photo). We use a random user ID to tell accounts apart and <b>never show your Google name, email or photo in the app</b>.</li>
 <li><b>Nickname</b> you choose, shown on your posts and comments.</li>
-<li><b>Your content</b>: posts (title, text), photos you attach (required for outfit posts, optional for experience posts), comments and their timestamps.</li>
+<li><b>Your content</b>: posts (title, text), photos you attach (required for outfit posts, optional for experience posts), comments, likes and their timestamps. Like and comment counts are shown publicly; who liked a post is not.</li>
 <li><b>Reports</b> you submit and their reason.</li>
 <li><b>Moderation records</b>: if an account is restricted for breaking the community rules, we keep a record.</li></ul>
 <p>Photos are compressed and re-saved on your device before upload, which removes EXIF metadata such as location.</p>
@@ -87,7 +87,7 @@ footer{max-width:760px;margin:0 auto;padding:4px 20px 40px;color:var(--muted);fo
 <h2>5. Retention and deletion</h2>
 <ul><li>Community data is kept until you delete it or delete your account.</li>
 <li>You can delete your own posts (with their photos and comments) at any time.</li>
-<li>In the app, <b>我的 (Me) → 账号 (Account) → 删除账号 (Delete account)</b> permanently deletes your nickname, all your posts, photos and comments, your reports and your sign-in account. See <a href="delete-account.html">Account &amp; data deletion</a>.</li>
+<li>In the app, <b>我的 (Me) → 账号 (Account) → 删除账号 (Delete account)</b> permanently deletes your nickname, all your posts, photos and comments, your likes, your reports and your sign-in account. See <a href="delete-account.html">Account &amp; data deletion</a>.</li>
 <li>To prevent abuse, a restriction record (random user ID and reason only) may be kept after account deletion.</li>
 <li>Provider backups may take some time to be fully cleared.</li></ul>
 <h2>6. Age</h2>

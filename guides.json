@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 1,
+  "contentVersion": 2,
   "sections": [
     {
       "id": "appearance",
@@ -86,7 +86,9 @@
           "type": "paragraph",
           "text": "穿搭的目标不是变成另一个人，而是让别人更容易看到你本来的样子。舒服、整洁、适合场合，就已经很好。"
         }
-      ]
+      ],
+      "cover": "https://plainappstudio.github.io/kailiao-content/images/guide-appearance-001.jpg",
+      "featured": true
     },
     {
       "id": "appearance-002",
@@ -139,7 +141,8 @@
           "type": "paragraph",
           "text": "睡眠充足、站姿挺拔、说话时看着对方，这些都会让人觉得你有精神、值得信赖。形象最终服务的是自信，而不是取悦所有人。"
         }
-      ]
+      ],
+      "cover": "https://plainappstudio.github.io/kailiao-content/images/guide-appearance-002.jpg"
     },
     {
       "id": "date-prep-001",
@@ -203,7 +206,8 @@
           "type": "paragraph",
           "text": "可以简单发一条消息，谢谢对方抽时间出来，表达你今天很开心。对方回应积极，再自然地聊下一次见面；如果对方回应冷淡，也不需要追问。"
         }
-      ]
+      ],
+      "cover": "https://plainappstudio.github.io/kailiao-content/images/guide-date-prep-001.jpg"
     },
     {
       "id": "online-001",
@@ -255,7 +259,8 @@
           "type": "paragraph",
           "text": "如果对方回复越来越少，或明确表示不感兴趣，礼貌地结束就好，例如“好的，谢谢你和我聊天，祝你一切顺利”。尊重对方的选择，也是对自己的尊重。"
         }
-      ]
+      ],
+      "cover": "https://plainappstudio.github.io/kailiao-content/images/guide-online-001.jpg"
     }
   ]
 }

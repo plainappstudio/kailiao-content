@@ -1,30 +1,35 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 1,
+  "contentVersion": 3,
+  "heroImage": "https://plainappstudio.github.io/kailiao-content/images/home-hero.jpg",
   "categories": [
     {
       "id": "opening",
       "title": "搭讪开场",
       "description": "在合适的场合，礼貌、自然地开启第一句对话",
-      "order": 1
+      "order": 1,
+      "image": "https://plainappstudio.github.io/kailiao-content/images/cat-opening.jpg"
     },
     {
       "id": "flow",
       "title": "聊天延续",
       "description": "让对话自然展开，避免冷场和一问一答",
-      "order": 2
+      "order": 2,
+      "image": "https://plainappstudio.github.io/kailiao-content/images/cat-flow.jpg"
     },
     {
       "id": "interest",
       "title": "表达好感",
       "description": "真诚、有分寸地表达欣赏与兴趣",
-      "order": 3
+      "order": 3,
+      "image": "https://plainappstudio.github.io/kailiao-content/images/cat-interest.jpg"
     },
     {
       "id": "invite",
       "title": "约会邀约",
       "description": "自然地提出见面邀请，并尊重对方的回应",
-      "order": 4
+      "order": 4,
+      "image": "https://plainappstudio.github.io/kailiao-content/images/cat-invite.jpg"
     }
   ],
   "lessons": [
@@ -44,7 +49,8 @@
           {
             "role": "self",
             "label": "你",
-            "text": "不好意思打扰一下，你手上这本是讲日本的吗？我最近也在计划去那边。"
+            "text": "不好意思打扰一下，你手上这本是讲日本的吗？我最近也在计划去那边。",
+            "practice": true
           },
           {
             "role": "other",
@@ -54,7 +60,8 @@
           {
             "role": "self",
             "label": "你",
-            "text": "京都我一直想去。你是在做攻略，还是已经去过了？"
+            "text": "京都我一直想去。你是在做攻略，还是已经去过了？",
+            "practice": true
           },
           {
             "role": "other",
@@ -64,7 +71,8 @@
           {
             "role": "self",
             "label": "你",
-            "text": "红叶季应该很美。我叫阿杰，平时也喜欢到处走走。有没有哪个地方你特别推荐？"
+            "text": "红叶季应该很美。我叫阿杰，平时也喜欢到处走走。有没有哪个地方你特别推荐？",
+            "practice": true
           },
           {
             "role": "other",
@@ -142,7 +150,8 @@
           {
             "role": "self",
             "label": "你",
-            "text": "挺好的！我上个月第一次去爬山，下山的时候腿一直在抖，哈哈。你一般去哪里爬？"
+            "text": "挺好的！我上个月第一次去爬山，下山的时候腿一直在抖，哈哈。你一般去哪里爬？",
+            "practice": true
           },
           {
             "role": "other",
@@ -152,7 +161,8 @@
           {
             "role": "self",
             "label": "你",
-            "text": "听起来很适合我这种体力。你喜欢爬山，是因为风景，还是喜欢运动的感觉？"
+            "text": "听起来很适合我这种体力。你喜欢爬山，是因为风景，还是喜欢运动的感觉？",
+            "practice": true
           },
           {
             "role": "other",
@@ -162,7 +172,8 @@
           {
             "role": "self",
             "label": "你",
-            "text": "懂，我跑步也是这种感觉，跑完整个人都轻松了。你最近工作在忙什么？"
+            "text": "懂，我跑步也是这种感觉，跑完整个人都轻松了。你最近工作在忙什么？",
+            "practice": true
           }
         ],
         "whyItWorks": "每次回应都先接住对方的话，再分享一点自己的经历，最后用开放式问题把话题延展下去。对方能感受到你在认真听，也更愿意多说一些。",
